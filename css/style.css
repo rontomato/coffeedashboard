@@ -1,0 +1,247 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container {
+    padding: 0 100px 0 100px;
+}
+
+nav ul,
+.main-info,
+.design-category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+body {
+    background-color: #e2e1df;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo img {
+    width: 190px;
+    
+}
+
+.navbar ul {
+    padding-top: 30px;
+}
+.navbar {
+    background-color: #494545;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+
+li {
+    list-style: none;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+header a {
+    color: #707070;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    top: 20%;
+    bottom: 50%;
+    transform: translateY(-50%);
+
+    
+}
+
+a:hover {
+    color: rgb(119, 100, 16);
+    transition: .5s;
+}
+
+.main-info {
+    
+    height: 80vh;
+    
+    background-image: url(../img/black-coffee-cup-and-black-notepad-on-black-table-3815759.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.text {
+    margin-top: 6%;
+    text-align: center;
+}
+
+.icon img{
+    width: 300px;
+    padding-bottom: 20px;
+}
+
+.text h4 {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 1.4rem;
+    width: 80%;
+    margin-left: 12%;
+    padding-bottom: 10px;
+    opacity: .5;
+    
+    
+}
+
+.text p{
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    opacity: .5;
+}
+
+.text a{
+    padding: 12px 25px;
+    background-color: none;
+    border: 2px solid #ed5565;
+    color: #ed5565;
+    font-size: .8rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: relative; 
+    overflow: hidden;
+    transition: .5s;
+    display: inline-block;
+}
+
+.text a:hover{
+    color: #fff;
+}
+
+.text a::before{
+    content: '';
+    background-color: #ed5565;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0%;
+    z-index: -1;
+    transition: .5s;
+}
+
+.about-coffee h2,
+.gallery h2,
+.design h1 {
+    text-align: center;
+    opacity: .4;
+    font-size: 5.6rem;
+    color: #221e1e;
+    
+}
+.about-coffee{
+    padding-top:120px;
+    height: 80vh;
+}
+.about-coffee p{
+    padding-bottom: 20px;
+}
+
+.gallery {
+    padding-top:120px;
+    height: 150vh;
+}
+
+.gallery p{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.gallery img {
+    width: 350px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+.design{
+    padding-top:120px;
+    height: 190vh;
+    
+}
+
+
+.design a img {
+
+    width: 350px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.design-category {
+    padding-bottom: 20px;
+}
+.design-category button {
+    text-transform: capitalize;
+    border: 2px solid #942929;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    
+    cursor: pointer;
+    outline: none;
+}
+
+div[class^='category-'] {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax (350px, 1fr));
+    grid-gap: 20px;
+}
+
+div.hideCategory {
+    display: none;
+}
+
+div.showCategory {
+    display: block;
+}
+.design-category button:hover {
+    color: #fff;
+    transition: all .5s;
+}
+.design-category .active {
+    background-color: #925918;
+
+}
+
+footer hr {
+    border: 2px solid #1b1a1a;
+    margin-top: 20px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.2rem;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}

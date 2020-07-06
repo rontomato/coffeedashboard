@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finest Coffee</title>
+    <link rel="icon" href="img/LogoCoffee.png" type="image/png">
+    <script src="https://kit.fontawesome.com/201d21548c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+</head>
+<body>
+    <div class="container navbar">
+        <header>
+            <div class="logo">
+                <img src="img/title.png" alt="">
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#home"> Home </a></li>
+                    <li><a href="#about"> About </a></li>
+                    <li><a href="#gallery"> Gallery </a></li>
+                    <li><a href="#design"> Designs </a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+<div class="page-wrap">
+    <div id="home" class="container main-info">
+        <div class="text">
+            <div class="icon">
+                <img src="img/title.png" class="animate__animated animate__bounce animate__delay-2s">
+            </div>
+            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate quia, omnis magni ducimus ipsa iure sunt perspiciatis perferendis atque placeat autem nihil iusto, </h4>
+
+            <p> Expresso / Cappuccino / Latte</p> <br>
+            <a href="contact-me"> Read more</a>
+        </div>
+    </div>
+
+    <div class="container about-coffee" id="about">
+        <h2>About</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint ducimus dolorem deleniti enim repudiandae debitis. Corporis, laboriosam optio? Obcaecati earum iusto quos praesentium quisquam, rerum labore voluptatum minima ullam delectus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero minima repellendus quis voluptate, iure facilis id aspernatur deserunt possimus quasi ducimus qui illo, repudiandae excepturi dignissimos. Repellat tempora consequatur a? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero minima repellendus quis voluptate, iure facilis id aspernatur deserunt possimus quasi ducimus qui illo, repudiandae excepturi dignissimos. Repellat tempora consequatur a? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero minima repellendus quis voluptate, iure facilis id aspernatur deserunt possimus quasi ducimus qui illo, repudiandae excepturi dignissimos. Repellat tempora consequatur a? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero minima repellendus quis voluptate, iure facilis id aspernatur deserunt possimus quasi ducimus qui illo, repudiandae excepturi dignissimos. Repellat tempora consequatur a? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero minima repellendus quis voluptate, iure facilis id aspernatur deserunt possimus quasi ducimus qui illo, repudiandae excepturi dignissimos. Repellat tempora consequatur a?</p>
+    </div>
+
+
+    <div class="container gallery"  id="gallery">
+        <h2>Our Gallery</h2>
+        <p>Feel free to look</p>
+            <a href="img/1.jpg" data-lightbox="gallery"><img src="img/1.jpg" ></a>
+            <a href="img/2.jpg" data-lightbox="gallery"><img src="img/2.jpg" ></a>
+            <a href="img/3.jpg" data-lightbox="gallery"><img src="img/3.jpg" ></a>
+            <a href="img/4.jpg" data-lightbox="gallery"><img src="img/4.jpg" ></a>
+            <a href="img/5.jpg" data-lightbox="gallery"><img src="img/5.jpg" ></a>
+            
+        
+    </div>
+
+    <div class="container design" id="design">
+        <h1>Our Designs</h1>
+        <br>
+
+        <div class="design-category">
+            <button id="designing" class="active" onclick="showRequiredCategory(this)">Designs</button>
+            <button id="creators" onclick="showRequiredCategory(this)" >Creators</button>
+            <button id="others" onclick="showRequiredCategory(this)">Others</button>
+        </div>
+        
+        
+        <div class="category-designing showCategory">
+            <a href="img/1.jpg" data-lightbox="gallery"><img src="img/1.jpg" ></a>
+            <a href="img/2.jpg" data-lightbox="gallery"><img src="img/2.jpg" ></a>
+            <a href="img/3.jpg" data-lightbox="gallery"><img src="img/3.jpg" ></a>
+            <a href="img/4.jpg" data-lightbox="gallery"><img src="img/4.jpg" ></a>
+            <a href="img/5.jpg" data-lightbox="gallery"><img src="img/5.jpg" ></a>
+        </div>
+        <div class="category-creators hideCategory">
+            <a href="img/1.jpg" data-lightbox="gallery"><img src="img/1.jpg" ></a>
+            <a href="img/2.jpg" data-lightbox="gallery"><img src="img/2.jpg" ></a>
+            <a href="img/3.jpg" data-lightbox="gallery"><img src="img/3.jpg" ></a>
+            
+            
+        </div>
+        <div class="category-others hideCategory">
+            <a href="img/1.jpg" data-lightbox="gallery"><img src="img/1.jpg" ></a>
+            <a href="img/2.jpg" data-lightbox="gallery"><img src="img/2.jpg" ></a>
+            <a href="img/3.jpg" data-lightbox="gallery"><img src="img/3.jpg" ></a>
+            
+            
+            
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <hr>
+    <p>2020 Copyright. All Right Reserved</p>
+</footer>
+
+    <script src="js/animation.gsap.min.js"></script>
+    <script src="js/CSSPlugin.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/script2.js"></script>
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/TimelineLite.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>
